@@ -30,7 +30,7 @@
 			float: left;/*将li设置成做浮动，变为联动*/
 			display: block;/*将a变成块状*/
 			width: 100px;/*设置块的宽度*/
-			height: auto;/*设置块的长度*/
+			height: 50px;/*设置块的长度*/
 			line-height: 50px;/*设置字体在块中的高度*/
 			margin: 0px 0px;/*块里的高宽通过margin设置*/
 			color: #ffffff;
@@ -38,7 +38,7 @@
 			text-decoration: none;/*去掉下划线*/
 			font-size: 20px;
 		}
-		li:hover{
+		botton:hover{
 			background-color: #2f6f4f;
 			color: #000000;
 		}
@@ -64,25 +64,24 @@
         </div>
 		<div>
 			<ul>
-				<li>首页</li>
-				<li onclick="jump()">关于</li>
-				<li>联系</li>
-				<li>技术</li>
-				<li>宣传</li>
-				<li>更多</li>
+				<button style="height: 50px;width: 100px;background-color: #2f4f4f;color: #ffffff;font-size: 20px;"
+					/*onclick="window.location.href = 'https://tgwzhzh.github.io'"*/>首页</button>
+				<button style="height: 50px;width: 100px;background-color: #2f4f4f;color: #ffffff;font-size: 20px;"
+					onclick="window.location.href = 'https://tgwzhzh.github.io/about.html'">关于</button>
+				<button style="height: 50px;width: 100px;background-color: #2f4f4f;color: #ffffff;font-size: 20px;"
+					/*onclick="window.location.href = 'https://tgwzhzh.github.io'"*/>联系</button>
+				<button style="height: 50px;width: 100px;background-color: #2f4f4f;color: #ffffff;font-size: 20px;"
+					/*onclick="window.location.href = 'https://tgwzhzh.github.io'"*/>技术</button>
+				<button style="height: 50px;width: 100px;background-color: #2f4f4f;color: #ffffff;font-size: 20px;"
+					/*onclick="window.location.href = 'https://tgwzhzh.github.io'"*/>宣传</button>
 			</ul>
 		</div>
+		
 		<div id="敬请期待" style="text-align:center;">
 			<h3>欢迎访问塘沽五中革命委员会官网，本网站正在制作中，暂无更多内容，敬请期待</h3>
 		</div>
 		
 		
-		<script type="text/javascript">
-			String url = "https://tgwzhzh.github.io/";
-			function jump() {
-				window.open(url + "about.html");
-			}
-		</script>
 		
 		
     </body>
