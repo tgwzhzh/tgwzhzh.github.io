@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>塘沽五中革命委员会官网</title>
+        <style>
+		*{
+			padding:0px;
+			margin:0px;
+			border:0px;
+		}
+		#标题{
+			background-color:#0064FF;
+			width:auto;
+			height: auto;
+		}
+		#五中图标 {
+			width: 100px;
+			height: 100px;
+		}
+		ul{/*设置导航栏的框框*/
+			width: auto;/*框框的宽度*/
+			height: 50px;/*框框的长度*/
+			padding: 0px;/*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
+			border:3px solid #000000;/*添加边框*/
+			background-color: #2f4f4f;
+		}
+		li{
+			list-style-type: none;/* 去掉li前的点 */
+			float: left;/*将li设置成做浮动，变为联动*/
+			display: block;/*将a变成块状*/
+			width: 100px;/*设置块的宽度*/
+			height: auto;/*设置块的长度*/
+			line-height: 50px;/*设置字体在块中的高度*/
+			margin: 0px 0px;/*块里的高宽通过margin设置*/
+			color: #ffffff;
+			text-align: center;/*字体居中*/
+			text-decoration: none;/*去掉下划线*/
+			font-size: 20px;
+		}
+		li:hover{
+			background-color: #2f6f4f;
+			color: #000000;
+		}
+		
+		
+		#敬请期待 {
+			width: auto;
+			height: 1000px;
+			line-height: 500px;
+		}
+		
+		
+		
+		
+		</style>
+    </head>
+    <body>
+        <!--标题-->
+        <div id="标题" style="text-align:center;">
+			<img id="五中图标" src="五中图标.png">
+            <h1>塘沽五中革命委员会官网</h1>
+			<h3>The official website of Tanggu No.5 Middle School Revolutionary Committee</h3>
+        </div>
+		<div>
+			<ul>
+				<li>首页</li>
+				<li onclick="jump()">关于</li>
+				<li>联系</li>
+				<li>技术</li>
+				<li>宣传</li>
+				<li>更多</li>
+			</ul>
+		</div>
+		<div id="敬请期待" style="text-align:center;">
+			<h3>关于</h3>
+		</div>
+		
+		
+		<script type="text/javascript">
+			String url = "https://tgwzhzh.github.io/";
+			function jump() {
+				window.open(url + "about.html");
+			}
+		</script>
+		
+		
+    </body>
+</html>
