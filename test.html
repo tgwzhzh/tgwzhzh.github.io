@@ -5,26 +5,68 @@
         <title>塘沽五中革命委员会官网</title>
         <style>
 		*{
-    padding:0px;
-    margin:0px;
-    border:0px;
-}
-#标题{
-    background-color:#0064FF;
-    width:1000px;
-    height: 300px;
-}
-.h1{
-    font-size:50px;
-}</style>
+			padding:0px;
+			margin:0px;
+			border:0px;
+		}
+		#标题{
+			background-color:#0064FF;
+			width:auto;
+			height: auto;
+		}
+		#五中图标 {
+			width: 100px;
+			height: 100px;
+		}
+		ul{/*设置导航栏的框框*/
+			width: auto;/*框框的宽度*/
+			height: 50px;/*框框的长度*/
+			padding: 0px;/*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
+			border:3px solid #000000;/*添加边框*/
+			background-color: #2f4f4f;
+		}
+		li{
+			list-style-type: none;/* 去掉li前的点 */
+			float: left;/*将li设置成做浮动，变为联动*/
+		}
+		a{
+			display: block;/*将a变成块状*/
+			width: 100px;/*设置块的宽度*/
+			height: 50px;/*设置块的长度*/
+			font-family: Microsoft Yahei;
+			line-height: 50px;/*设置字体在块中的高度*/
+			margin: 0px 0px;/*块里的高宽通过margin设置*/
+			color: #fff;
+			text-align: center;/*字体居中*/
+			text-decoration: none;/*去掉下划线*/
+			font-size: 20px;
+		}
+		a:hover{
+			background-color: #2f6f4f;
+		}
+		
+		
+		</style>
     </head>
     <body>
         <!--标题-->
         <div id="标题" style="text-align:center;">
-			<img src="五中图标.png" width="200" height="200">
-            <h1 class="h1">塘沽五中革命委员会官网</h1>
-			<h3 class="h3">The official website of Tanggu No.5 Middle School Revolutionary Committee</h3>
+			<img id="五中图标" src="五中图标.png">
+            <h1>塘沽五中革命委员会官网</h1>
+			<h3>The official website of Tanggu No.5 Middle School Revolutionary Committee</h3>
         </div>
+		<div >
+			<ul class=daohang>
+				<li><a href="">首页</a></li>
+				<li><a href="">关于</a></li>
+				<li><a href="">联系</a></li>
+				<li><a href="">技术</a></li>
+				<li><a href="">宣传</a></li>
+				<li><a href="">更多</a></li>
+			</ul>
+		</div>
+
+		
 		
 		
 		
