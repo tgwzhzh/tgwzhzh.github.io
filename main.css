@@ -1,0 +1,51 @@
+* {
+	word-break: break-all;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.head {
+	width: 100%;
+	height: auto;
+}
+
+.app {
+	width: 98%;
+	height: auto;
+	background-color: black;
+	color: white;
+	margin: 1%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	src: url("ic_app.png");
+}
+
+p {
+	margin: 1%;
+	text
+}
+
+button {
+	width: 100%;
+	height: auto;
+	background-color: blue;
+	color: yellow;
+	font-size: large;
+}
+.about {
+	width: 98%;
+	height: auto;
+	background-color: red;
+	color: yellow;
+	margin: 1%;
+}
+h2 {
+	text-align:center;
+}
+p {
+	margin: 1%;"
+}
